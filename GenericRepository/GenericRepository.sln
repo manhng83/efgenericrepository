@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{1D995123-EC95-4928-8D76-1451A578D26B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{F264224F-E176-4958-B8CA-D6805FEBBB6C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{5A8168CE-2F8D-419D-8EC5-8434504CB7BE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{FB8323B5-5D6B-4788-B244-F071267FD0CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EfGenericRepository", "EfGenericRepository\EfGenericRepository.csproj", "{80DEF760-EBA4-4322-8DDB-45A6357B0138}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVCExample", "MVCExample", "{AC4E1931-3474-4C2B-9CDE-1149AACF2C2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RepostioryExampleMVC", "RepostioryExampleMVC\RepostioryExampleMVC.csproj", "{F943F9C6-BB80-4F19-9FEA-96167BFF0AF9}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs.codeplex.com/tfs/tfs14
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EfGenericRepository\\EfGenericRepository.csproj
+		SccProjectTopLevelParentUniqueName1 = GenericRepository.sln
+		SccProjectName1 = EfGenericRepository
+		SccLocalPath1 = EfGenericRepository
+		SccProjectUniqueName2 = RepostioryExampleMVC\\RepostioryExampleMVC.csproj
+		SccProjectTopLevelParentUniqueName2 = GenericRepository.sln
+		SccProjectName2 = RepostioryExampleMVC
+		SccLocalPath2 = RepostioryExampleMVC
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{80DEF760-EBA4-4322-8DDB-45A6357B0138}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DEF760-EBA4-4322-8DDB-45A6357B0138}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DEF760-EBA4-4322-8DDB-45A6357B0138}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DEF760-EBA4-4322-8DDB-45A6357B0138}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F943F9C6-BB80-4F19-9FEA-96167BFF0AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F943F9C6-BB80-4F19-9FEA-96167BFF0AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F943F9C6-BB80-4F19-9FEA-96167BFF0AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F943F9C6-BB80-4F19-9FEA-96167BFF0AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{80DEF760-EBA4-4322-8DDB-45A6357B0138} = {1D995123-EC95-4928-8D76-1451A578D26B}
+		{AC4E1931-3474-4C2B-9CDE-1149AACF2C2E} = {5A8168CE-2F8D-419D-8EC5-8434504CB7BE}
+		{F943F9C6-BB80-4F19-9FEA-96167BFF0AF9} = {AC4E1931-3474-4C2B-9CDE-1149AACF2C2E}
+	EndGlobalSection
+EndGlobal
